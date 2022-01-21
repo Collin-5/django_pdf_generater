@@ -1,0 +1,9 @@
+{% extends 'users/base.html' %}
+
+{% block content %}
+    <img src="static/icon_bath.png" alt="user logo" height="150px">
+    <hr>
+    <img src="{{ user.logo.path }}" alt="user logo" height="150px">
+    <h3>{{ user }}</h3>
+    {{ user.description|linebreaks }}
+{% endblock content %}

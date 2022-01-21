@@ -1,0 +1,4 @@
+django
+reportlab
+xhtml2pdf
+pillow
